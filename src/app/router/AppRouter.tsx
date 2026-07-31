@@ -1,14 +1,14 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { LoginPage } from "@/features/auth/pages/LoginPage/LoginPage";
-import { AuthLayout } from "@/shared/layouts/AuthLayout";
+import { BrowserRouter, Routes } from "react-router-dom";
+import { publicRoutes, authRoutes, dashboardRoutes, adminRoutes } from "./routes";
 
 export function AppRouter() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route element={<AuthLayout />}>
-          <Route path="/login" element={<LoginPage />} />
-        </Route>
+        {publicRoutes}
+        {authRoutes}
+        {dashboardRoutes}
+        {adminRoutes}
       </Routes>
     </BrowserRouter>
   );
