@@ -1,4 +1,4 @@
-import { Route } from "react-router-dom";
+import { Route } from "react-router";
 import { DashboardLayout } from "@/shared/layouts/DashboardLayout";
 import { DashboarPage } from "@/features/dashboard/pages/DashboardPage";
 import { ProfilePage } from "@/features/profile/pages";

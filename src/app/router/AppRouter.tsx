@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter, Routes } from "react-router";
 import { publicRoutes, authRoutes, dashboardRoutes, adminRoutes } from "./routes";
 
 export function AppRouter() {
