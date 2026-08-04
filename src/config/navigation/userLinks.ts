@@ -11,5 +11,9 @@ export const userLinks = [
     {
         label: "Tickets",
         to: "/tickets"
+    },
+    {
+        label: "Dashboard",
+        to:"/dashboard"
     }
 ];
