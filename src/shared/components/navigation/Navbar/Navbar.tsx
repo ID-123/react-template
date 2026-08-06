@@ -4,7 +4,7 @@ import type { NavbarProps } from "./Navbar.types";
 export function Navbar(props: NavbarProps) {
 
     return (
-        <>
+        <header>
             <nav>
                 <ul>
                     {
@@ -14,6 +14,6 @@ export function Navbar(props: NavbarProps) {
                     }
                 </ul>
             </nav>
-        </>
+        </header>
     );
 }

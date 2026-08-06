@@ -6,17 +6,17 @@ import { Outlet } from "react-router";
 export function PublicLayout() {
   return (
     <>
-      <header className="border-b p-4">
-        <Navbar links={guestLinks} />
-      </header>
+
+      <Navbar links={guestLinks} />
+
       <main className="min-h-screen flex flex-col">
         <section className="flex-1 p-6">
           <Outlet />
         </section>
-        <footer>
-          <Footer />
-        </footer>
       </main>
-    </> 
+
+      <Footer />
+
+    </>
   );
 }

@@ -1,4 +1,5 @@
 
+import { Footer } from "@/shared/components/navigation/Footer/Footer";
 import { Outlet } from "react-router";
 
 export function AuthLayout() {
@@ -8,10 +9,8 @@ export function AuthLayout() {
         <section className="flex-1 flex items-center justify-center">
           <Outlet />
         </section>
-        <footer className="border-t p-4 text-center">
-          Contactc | @ Multicine
-        </footer>
       </main>
+      <Footer />
     </>
   );
 }

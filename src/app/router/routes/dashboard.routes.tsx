@@ -1,5 +1,5 @@
 import { Route } from "react-router";
-import { DashboardLayout } from "@/shared/layouts/DashboardLayout";
+import { DashboardLayout } from "@/shared/layouts/UserLayout";
 import { DashboarPage } from "@/features/dashboard/pages/DashboardPage";
 import { ProfilePage } from "@/features/profile/pages";
 
