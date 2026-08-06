@@ -1,20 +1,37 @@
 export interface LayoutConfig {
-    size: {
-        height?: string,
-        width?: string,
-        minHeight?: string,
-        maxWidth?: string,
-    },
-    spacing: {
-        padding?: string,
-        margin?: string,
-        gap?: string,
-    },
-    display?: {
-        flexDirection?: "row" | "column",
-        justifyContent?: string,
-        alignItems?: string,
-        position?: "relative" | "absolute" | "sticky" | "fixed" | "static",
-        zIndex?: string,
-    },
+  size: {
+    height?: string;
+    width?: string;
+
+    minHeight?: string;
+    maxHeight?: string;
+
+    minWidth?: string;
+    maxWidth?: string;
+  };
+  spacing: {
+    padding?: string;
+    margin?: string;
+    gap?: string;
+  };
+  display: {
+    direction?: "row" | "column";
+
+    justify?: "start" | "center" | "end" | "between" | "around" | "evenly";
+
+    align?: "start" | "center" | "end" | "stretch";
+
+    wrap?: "wrap" | "nowrap";
+
+    position?: "static" | "relative" | "absolute" | "fixed" | "sticky";
+  };
+  layer?: {
+    zIndex?: string;
+  };
+  appearance?: {
+    background?: string,
+    border?: string,
+    radius?: string,
+    shadow?: string,
+  }
 }

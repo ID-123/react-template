@@ -11,9 +11,11 @@ export const navbar: LayoutConfig = {
   },
   display: {
     position: "sticky",
+    direction: "row",
+    justify: "center",
+  },
+  layer: {
     zIndex: "",
-    flexDirection: "row",
-    justifyContent: "",
   },
 };
 
@@ -26,9 +28,11 @@ export const sidebar: LayoutConfig = {
     padding: "",
   },
   display: {
-    flexDirection: "column",
-    zIndex: "",
+    direction: "column",
     position: "sticky",
+  },
+  layer: {
+    zIndex: "",
   },
 };
 
@@ -42,22 +46,22 @@ export const content: LayoutConfig = {
     padding: "",
   },
   display: {
-    flexDirection: "column",
-    justifyContent: "",
+    direction: "column",
+    justify: "center",
   },
 };
 
 export const footer: LayoutConfig = {
   size: {
     height: "",
-    minHeight:"",
+    minHeight: "",
   },
   spacing: {
     padding: "",
-    margin:"",
+    margin: "",
   },
   display: {
-    flexDirection: "row",
-    justifyContent: "",
+    direction: "row",
+    justify: "center",
   },
 };
