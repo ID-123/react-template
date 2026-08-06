@@ -1,6 +1,6 @@
 import { Route } from "react-router";
 import { PublicLayout } from "@/shared/layouts/PublicLayout";
-import { HomePage } from "@/features/movies/pages/HomePage";
+import { HomePage } from "@/features/home/pages/HomePage";
 
 export const publicRoutes = (
   <Route element={<PublicLayout />}>

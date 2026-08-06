@@ -17,6 +17,6 @@ export function PublicLayout() {
           <Footer />
         </footer>
       </main>
-    </>
+    </> 
   );
 }
